@@ -1,0 +1,15 @@
+#head2 {
+    color: rgb(219, 33, 136);
+    text-transform: lowercase;
+}
+.class1 {
+    color: #0a642c;
+    text-decoration: underline;
+}
+#head3 {
+    background-color: rgb(57, 17, 109);
+    color: #bbae37;
+}
+body {
+    margin: 0;
+}
