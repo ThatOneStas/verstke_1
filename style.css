@@ -13,3 +13,88 @@
 body {
     margin: 0;
 }
+.box_model div {
+    background-color: rgb(216, 188, 204);
+    /* padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px; */
+    padding: 10px 100px 10px 10px;
+
+    /* margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    */
+    margin: 20px 10px 20px 10px;
+
+    /* border:  2px solid #e9d415;
+    border-radius: 8px; */
+    border-left: 4px solid #a07a8f;
+    border-bottom: 4px solid #a07a8f;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    outline: 2px solid #c92f84;
+
+    text-align: center;
+
+} 
+.ul_model li {
+    list-style: none;
+}
+.ul_model li a {
+    text-decoration: none;
+    color: #ff7402;
+}
+.ul_model li a:hover {
+    text-decoration: underline;
+    color: #630c35;
+    transition: 0.5s;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    width: 200px;
+    height: 320px;
+
+    border-radius: 7px;
+
+    margin-left: 20%;
+    margin-bottom: 20px;
+
+    background-color: #84dda6;
+}
+.card #div_1 {
+    justify-content: center;
+    width: 100%;
+    height: 75%;
+}
+.card #div_2 {
+    text-align: center;
+    color: white;
+
+    font-family: Monospace;
+
+    width: 100%;
+    height: 25%;
+}
+.card #div_2 h2 {
+    margin: 0px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.card #div_2 h3 {
+    margin: 0px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.card div img {
+    width: 100%;
+    height: 100%;
+
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
