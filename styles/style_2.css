@@ -1,0 +1,48 @@
+span {
+    color: orange;
+}
+
+.round {
+    height: 200px;
+    width: 200px;
+
+    border-radius: 50%;
+    
+    background-image: url("../img/bg_img.jpg");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+     opacity: 0.8; /* 1 - 100%, 0.5 - 50%, - - 0% */
+
+     transition: 0.1s;
+
+     filter: grayscale(100%);
+}
+
+.round:hover {
+    opacity: 1;
+
+    cursor: pointer;
+
+    filter: grayscale(0%);
+
+    transition: 0.3s;
+}
+
+.test_el {
+    font-size: 30px;
+
+    line-height: 1.2;
+
+    margin: 20px;
+}
+
+.test_el::before {
+    content: "Before";
+}
+
+.test_el::after {
+    content: "After";
+}
