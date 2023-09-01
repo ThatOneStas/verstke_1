@@ -1,0 +1,179 @@
+.block_one, .block_two {
+    width: 100px;
+    height: 100px;
+}
+
+.block_one {
+    background-color: rgb(27, 175, 175);
+    display: inline-block;
+}
+
+.block_two {
+    background-color: brown;
+    display: inline-block;
+}
+
+.parent div{
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+
+    background-color: blueviolet;
+}
+
+.parent {
+    height: 600px;
+
+    background-color: rgb(220, 255, 184);
+    
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.parent :first-child {
+    background-color: brown;
+}
+
+.parent :last-child {
+    background-color: blue;
+}
+
+.parent :nth-child(2) {
+    background-color: olive;
+}
+
+.task {
+    background-color: aquamarine;
+    width: 400px;
+    height: 200px;
+
+    border: 2px solid seagreen;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.task div{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+
+    rotate: 45deg;
+
+    margin: 0px 20px 0px 20px;
+
+    transition: 0.2s;
+}
+
+/* .task div:hover{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+
+    rotate: 90deg;
+
+    transition: 0.3s;
+} */
+
+.task:hover :first-child{
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+
+    rotate: 90deg;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.task:hover :last-child{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+
+    rotate: 0deg;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.test {
+    background-color: rgb(178, 255, 127);
+    width: 200px;
+    height: 200px;
+
+    position: relative;
+
+    border: 2px solid rgb(139, 91, 46);
+}
+
+.test div {
+    background-color: rgb(255, 53, 53);
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+
+    top: 100px;
+    left: 100px;
+
+    transition: 0.2s;
+}
+
+
+
+.test:hover :first-child {
+    background-color: rgb(255, 53, 194);
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+
+    top: 50px;
+    left: 100px;
+
+    transition: 0.2s;
+}
+
+.fixed {
+    background-color: #999999;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+    position: fixed;
+
+    bottom: 20px;
+    right: 20px;
+
+    transition: 0.2s;
+}
+
+.fixed:hover {
+    background-color: #858585;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+
+    position: fixed;
+
+    bottom: 15px;
+    right: 15px;
+
+    transition: 0.2s;
+}
+
+body{
+    height: calc(2*100vh);
+}
