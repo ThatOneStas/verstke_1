@@ -1,0 +1,112 @@
+body {
+    margin: 0px;
+}
+
+.Request {
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 0px 5%;
+    display: flex;
+
+    margin-bottom: 60px;
+}
+
+.Request__block1 {
+    width: 70%;
+    height: 100%;
+}
+
+.Request__block1_text {
+    color: var(--, #000);
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    margin-top: 20px;
+    margin-bottom: 55px
+}
+
+.Request__block1_input1,.Request__block1_input2 {
+    width: 855px;
+    border: 0px;
+    border-bottom: 1px solid black;
+
+    color: var(--, #6D6D6D);
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+    margin-bottom: 26px;
+}
+
+.Request__block2 {
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Request__block2_text {
+    width: 332px;
+
+    color: var(--, #000);
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+    margin-bottom: 37px;
+}
+
+.Request__block2_sumbit {
+    width: 194px;
+    height: 48px;
+    background-color: #9E2235;
+    border-radius: 20px;
+    border: 0px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 155.556% */
+}
+
+.Footer {
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 0px 5%;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer__row1,.Footer__row2 {
+    width: 100%;
+    height: fit-content;
+}
+
+.Footer__row1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.Footer__row2 {
+    display: flex;
+    justify-content: space-evenly;
+}
